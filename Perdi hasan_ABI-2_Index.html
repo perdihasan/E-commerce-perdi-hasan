@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Perdi Hasan Store - Toko Elektronik Online</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-container">
+        <a href="#" class="logo">PerdiStore</a>
+        <button class="mobile-menu-toggle" onclick="toggleMobileMenu()">
+          ☰
+        </button>
+        <a href="#" class="cart-icon">
+          🛒
+          <span class="cart-count">0</span>
+        </a>
+      </div>
+      <nav>
+        <div class="nav-container">
+          <ul class="nav-menu" id="navMenu">
+            <li><a href="#beranda">Beranda</a></li>
+            <li><a href="#produk">Produk</a></li>
+            <li><a href="#kategori">Kategori</a></li>
+            <li><a href="#tentang">Tentang Kami</a></li>
+            <li><a href="#kontak">Kontak</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section id="beranda">
+        <section class="hero">
+          <h1>Selamat Datang di PerdiStore</h1>
+          <p>Temukan elektronik terbaru dengan harga terjangkau</p>
+          <a href="#produk" class="cta-button">Belanja Sekarang</a>
+        </section>
+      </section>
+
+      <section id="produk">
+        <h2>Produk Terbaru</h2>
+        <div class="product-grid">
+          <article class="product-card">
+            <div class="product-image">⌚</div>
+            <div class="product-info">
+              <h3 class="product-name">Jam Tangan Kulit</h3>
+              <p class="product-description">
+                Jam tangan analog elegan dengan strap kulit asli dan fitur chronograph. Cocok untuk gaya formal maupun kasual.
+              </p>
+              <div class="product-price">Rp 1.125.000</div>
+              <button class="add-to-cart" onclick="addToCart()">
+                Tambah ke Keranjang
+              </button>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-image">🎮</div>
+            <div class="product-info">
+              <h3 class="product-name">Stik PS</h3>
+              <p class="product-description">
+                Stik PS (PlayStation) bukan sekadar gadget, melainkan portal menuju dunia fantasi dan petualangan seru. Dengan desain ergonomis dan tombol responsif, stik PS memberikan pengalaman bermain yang nyaman dan imersif.
+              </p>
+              <div class="product-price">Rp 1.445.000</div>
+              <button class="add-to-cart" onclick="addToCart()">
+                Tambah ke Keranjang
+              </button>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-image">📺</div>
+            <div class="product-info">
+              <h3 class="product-name">TV Samsung</h3>
+              <p class="product-description">
+                 TV Samsung adalah merek televisi yang dikenal dengan kualitas gambar yang baik, desain yang modern, dan berbagai fitur canggih, termasuk Smart TV dengan akses ke internet dan aplikasi.
+              </p>
+              <div class="product-price">Rp 3.600.000</div>
+              <button class="add-to-cart" onclick="addToCart()">
+                Tambah ke Keranjang
+              </button>
+            </div>
+          </article>
+
+      <section id="kategori">
+        <h2>Kategori produk</h2>
+        <div class="categories">
+          <div class="category-card">
+            <div class="category-icon">⌚</div>
+            <h3>Jam Tangan</h3>
+            <p>Jam Tangan kulit terbaru</p>
+          </div>
+          <div class="category-card">
+            <div class="category-icon">🎮</div>
+            <h3>Stik PS</h3>
+            <p>Desain ergonomis dan tombol responsif,bermain dengan nyaman dan impersif</p>
+          </div>
+          <div class="category-card">
+            <div class="category-icon">📺</div>
+            <h3>TV Samsung</h3>
+            <p>Kualitas gambar yang baik,desain yang modern,dan berbagai fitur canggih</p>
+
+      <section id="tentang">
+        <h2>Tentang Kami</h2>
+        <div class="about-content">
+          <p>
+            PerdiStore adalah toko elektronik online terpercaya yang menyediakan
+            berbagai gadget dan perangkat teknologi terbaru dengan kualitas
+            terjamin.
+          </p>
+          <p>
+            Kami berkomitmen untuk memberikan pengalaman berbelanja yang mudah,
+            aman, dan memuaskan dengan layanan pelanggan terbaik dan jaminan
+            produk original.
+          </p>
+          <p>
+            Dengan pengalaman lebih dari 10 tahun di industri teknologi, kami
+            telah melayani ribuan pelanggan di seluruh Indonesia dengan kepuasan
+            mencapai 98%.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>PerdiStore</h3>
+          <p>
+            Toko elektronik online terpercaya dengan produk berkualitas dan
+            pelayanan terbaik.
+          </p>
+        </div>
+        <div class="footer-section">
+          <h3>Tautan Cepat</h3>
+          <p><a href="#">Beranda</a></p>
+          <p><a href="#produk">Produk</a></p>
+          <p><a href="#kategori">Kategori</a></p>
+          <p><a href="#tentang">Tentang Kami</a></p>
+        </div>
+        <div class="footer-section">
+          <h3>Layanan</h3>
+          <p><a href="#">Bantuan</a></p>
+          <p><a href="#">Kebijakan Privasi</a></p>
+          <p><a href="#">Syarat & Ketentuan</a></p>
+          <p><a href="#">Pengembalian</a></p>
+        </div>
+        <div class="footer-section">
+          <section id="kontak">
+            <h3>Kontak</h3>
+            <p>Email: info@Perdistore.com</p>
+            <p>Telepon: (021) 126-5378</p>
+            <p>WhatsApp: +62 821-1783-5697</p>
+          </section>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 PerdiStore. Seluruh hak cipta dilindungi.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>/* Reset dan dasar */
+* {
+  :contentReference[oaicite:1]{index=1}
+  margin: 0;
+  padding: 0;
+}
+body {
+  :contentReference[oaicite:2]{index=2}
+  :contentReference[oaicite:3]{index=3}
+  color: #333;
+  background: #f9f9f9;
+}
+a {
+  :contentReference[oaicite:4]{index=4}
+  color: inherit;
+}
+
+/* Header */
+header {
+  background: #fff;
+  :contentReference[oaicite:5]{index=5}
+  position: sticky;
+  top: 0;
+  :contentReference[oaicite:6]{index=6}
+}
+.header-container {
+  display: flex;
+  :contentReference[oaicite:7]{index=7}
+  :contentReference[oaicite:8]{index=8}
+  padding: 1rem;
+  :contentReference[oaicite:9]{index=9}
+  :contentReference[oaicite:10]{index=10}
+}
+.logo {
+  :contentReference[oaicite:11]{index=11}
+  :contentReference[oaicite:12]{index=12}
+}
+:contentReference[oaicite:13]{index=13}
+  display: none;
+  :contentReference[oaicite:14]{index=14}
+  background: none;
+  border: none;
+}
+.cart-icon {
+  position: relative;
+  :contentReference[oaicite:15]{index=15}
+}
+.cart-count {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  background: #e74c3c;
+  color: #fff;
+  :contentReference[oaicite:16]{index=16}
+  :contentReference[oaicite:17]{index=17}
+  :contentReference[oaicite:18]{index=18}
+}
+
+/* Navigasi */
+nav {
+  background: #fff;
+}
+:contentReference[oaicite:19]{index=19}
+  :contentReference[oaicite:20]{index=20}
+  :contentReference[oaicite:21]{index=21}
+}
+.nav-menu {
+  display: flex;
+  :contentReference[oaicite:22]{index=22}
+  :contentReference[oaicite:23]{index=23}
+}
+:contentReference[oaicite:24]{index=24}
+  :contentReference[oaicite:25]{index=25}
+}
+:contentReference[oaicite:26]{index=26}
+  :contentReference[oaicite:27]{index=27}
+  display: block;
+  :contentReference[oaicite:28]{index=28}
+}
+:contentReference[oaicite:29]{index=29}
+  color: #007bff;
+}
+
+/* Hero Section */
+.hero {
+  background: #007bff;
+  color: #fff;
+  :contentReference[oaicite:30]{index=30}
+  :contentReference[oaicite:31]{index=31}
+}
+.hero h1 {
+  :contentReference[oaicite:32]{index=32}
+  :contentReference[oaicite:33]{index=33}
+}
+.hero p {
+  :contentReference[oaicite:34]{index=34}
+  :contentReference[oaicite:35]{index=35}
+}
+.cta-button {
+  background: #fff;
+  color: #007bff;
+  :contentReference[oaicite:36]{index=36}
+  :contentReference[oaicite:37]{index=37}
+  :contentReference[oaicite:38]{index=38}
+  :contentReference[oaicite:39]{index=39}
+}
+:contentReference[oaicite:40]{index=40}
+  background: #e2e6ea;
+}
+
+/* Produk */
+.product-grid {
+  display: grid;
+  :contentReference[oaicite:41]{index=41}
+  :contentReference[oaicite:42]{index=42}
+  :contentReference[oaicite:43]{index=43}
+  :contentReference[oaicite:44]{index=44}
+  :contentReference[oaicite:45]{index=45}
+}
+.product-card {
+  background: #fff;
+  :contentReference[oaicite:46]{index=46}
+  :contentReference[oaicite:47]{index=47}
+  display: flex;
+  :contentReference[oaicite:48]{index=48}
+  overflow: hidden;
+  :contentReference[oaicite:49]{index=49}
+}
+:contentReference[oaicite:50]{index=50}
+  :contentReference[oaicite:51]{index=51}
+  :contentReference[oaicite:52]{index=52}
+}
+.product-image {
+  :contentReference[oaicite:53]{index=53}
+  :contentReference[oaicite:54]{index=54}
+  :contentReference[oaicite:55]{index=55}
+  background: #f1f1f1;
+}
+.product-info {
+  padding: 1rem;
+  flex: 1;
+  display: flex;
+  :contentReference[oaicite:56]{index=56}
+}
+.product-name {
+  :contentReference[oaicite:57]{index=57}
+  :contentReference[oaicite:58]{index=58}
+}
+.product-description {
+  flex: 1;
+  :contentReference[oaicite:59]{index=59}
+  :contentReference[oaicite:60]{index=60}
+}
+.product-price {
+  :contentReference[oaicite:61]{index=61}
+  :contentReference[oaicite:62]{index=62}
+  color: #007bff;
+  :contentReference[oaicite:63]{index=63}
+}
+:contentReference[oaicite:64]{index=64}
+  background: #007bff;
+  color: #fff;
+  :contentReference[oaicite:65]{index=65}
+  border: none;
+  :contentReference[oaicite:66]{index=66}
+  cursor: pointer;
+  :contentReference[oaicite:67]{index=67}
+}
+:contentReference[oaicite:68]{index=68}
+  background: #0056b3;
+}
+
+/* Kategori */
+#kategori {
+  :contentReference[oaicite:69]{index=69}
+  background: #fff;
+}
+.categories {
+  display: grid;
+  :contentReference[oaicite:70]{index=70}
+  :contentReference[oaicite:71]{index=71}
+  :contentReference[oaicite:72]{index=72}
+  :contentReference[oaicite:73]{index=73}
+}
+.category-card {
+  background: #f1f1f1;
+  :contentReference[oaicite:74]{index=74}
+  padding: 1rem;
+  :contentReference[oaicite:75]{index=75}
+}
+.category-icon {
+  :contentReference[oaicite:76]{index=76}
+  :contentReference[oaicite:77]{index=77}
+}
+
+/* Tentang & Footer */
+:contentReference[oaicite:78]{index=78}
+  :contentReference[oaicite:79]{index=79}
+  :contentReference[oaicite:80]{index=80}
+  :contentReference[oaicite:81]{index=81}
+}
+footer {
+  background: #333;
+  color: #ddd;
+  :contentReference[oaicite:82]{index=82}
+}
+.footer-content {
+  display: grid;
+  :contentReference[oaicite:83]{index=83}
+  :contentReference[oaicite:84]{index=84}
+}
+:contentReference[oaicite:85]{index=85}
+  :contentReference[oaicite:86]{index=86}
+  color: #fff;
+}
+:contentReference[oaicite:87]{index=87}
+  color: #ddd;
+}
+:contentReference[oaicite:88]{index=88}
+  color: #fff;
+}
+.footer-bottom {
+  :contentReference[oaicite:89]{index=89}
+  :contentReference[oaicite:90]{index=90}
+  :contentReference[oaicite:91]{index=91}
+  :contentReference[oaicite:92]{index=92}
+}
+
+/* Responsif */
+:contentReference[oaicite:93]{index=93}
+  .nav-menu {
+    display: none;
+    :contentReference[oaicite:94]{index=94}
+    background: #fff;
+  }
+  :contentReference[oaicite:95]{index=95}
+    display: block;
+  }
+}
